@@ -1,0 +1,116 @@
+.containerform {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.cardform {
+  outline: 0;
+  background: #f2f2f2;
+  width: 25%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.logo {
+  width: 250px;
+  margin-bottom: 20px;
+}
+.aviso {
+  font-size: medium;
+  color: red;
+}
+.button {
+  width: 10%;
+  padding: 12px;
+  background-color: #ff0000;
+  color: #ffffff;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.button:hover {
+  background-color: #cc0000;
+}
+
+.button:focus {
+  outline: none;
+}
+.navstilos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #333; /* Color de fondo de la barra de navegación */
+  height: 60px;
+  padding: 0 20px;
+}
+.aboutButton {
+  background-color: #4caf50; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-right: 101px; /* Espacio entre los botones (margen derecho) */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efecto de transición suave */
+  text-decoration: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.homeButton {
+  background-color: #4caf50; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin-right: 10px; /* Espacio entre los botones (margen derecho) */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Efecto de transición suave */
+  text-decoration: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.aboutButton:hover {
+  background-color: #45a049; /* Nuevo color de fondo al pasar el cursor */
+}
+.homeButton:hover {
+  background-color: #45a049; /* Nuevo color de fondo al pasar el cursor */
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #f0f0f0; /* Color de fondo */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra */
+  overflow: hidden;
+}
+.boton {
+  padding: 8px 20px;
+  background-color: #70a872; /* Color de fondo del botón */
+  color: #fff; /* Color del texto del botón */
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.inputsearch {
+  flex: 1;
+  border: none;
+  outline: none;
+  background-color: transparent; /* Fondo transparente */
+  font-size: 16px;
+  color: #333; /* Color del texto */
+}

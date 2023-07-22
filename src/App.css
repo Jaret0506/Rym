@@ -6,13 +6,46 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  height: 100vh;
   /* Otros estilos si es necesario */
 }
 
-.stilos {
+.container {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 .ola {
-  border: 50pc;
+  width: 200px;
+  height: 350px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: small;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.imagenes {
+  width: 100px; /* Ancho deseado */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.navbar {
+  display: flex;
+  justify-content: end;
+}
+.boton {
+  border-radius: 8px;
+  font-size: 12px;
+  background-color: #4caf50;
+}
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

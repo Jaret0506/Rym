@@ -1,20 +1,34 @@
+import React, { useState } from "react";
+
 export default function SearchBar({ onSearch }) {
+  const [id, setId] = React.useState("");
+
+  const handleChange = (event) => {
+    setId(event.target.value);
+  };
+
   var handlerSearch = () => {
-    var input = document.getElementById("inputSearch");
-    onSearch(input.value);
-    input.value = "";
+    onSearch(id);
   };
 
   return (
-    <div>
-      <input id="inputSearch" type="search" placeholder="Ingresá un ID" />
+    <nav className="navbar">
+      <input
+        className="inputsearch"
+        id="inputSearch"
+        value={id}
+        type="search"
+        placeholder="Ingresá un ID"
+        onChange={(e) => handleChange(e)}
+      />
       <button
+        className="boton"
         onClick={() => {
           handlerSearch();
         }}
       >
         Agregar
       </button>
-    </div>
+    </nav>
   );
 }
